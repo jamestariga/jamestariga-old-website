@@ -1,0 +1,19 @@
+body {
+  background-color:rgba(232, 207, 178, 0.87);
+}
+
+h1 {
+  color: rgba(8, 61, 78, 0.83);
+}
+
+h3 {
+  color: rgba(8, 61, 78, 0.83);
+}
+
+hr {
+  border-style: none;
+  border-top-color: inherit;
+  background-color: #fff;
+  border-width: 5px;
+  width: 5%;
+}
