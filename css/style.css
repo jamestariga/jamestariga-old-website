@@ -2,18 +2,22 @@ body {
   background-color:rgba(232, 207, 178, 0.87);
 }
 
-h1 {
-  color: rgba(8, 61, 78, 0.83);
+.navigation  {
+  position: relative;
 }
 
-h3 {
-  color: rgba(8, 61, 78, 0.83);
+.navigation li{
+  list-style-type: none;
+  display: inline;
+  margin: auto;
+  overflow: hidden;
 }
 
-hr {
-  border-style: none;
-  border-top-color: inherit;
-  background-color: #fff;
-  border-width: 5px;
-  width: 5%;
+header a {
+  color:rgb(207, 135, 128);
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size: 1.0 em;
+  font-weight:bold;
+  margin: 5px;
 }
