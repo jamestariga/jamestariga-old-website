@@ -40,8 +40,93 @@
         <div class="line3"></div>
       </div>
     </nav>
-    <script src="./js/app.js"></script>
+    <script src="./js/navbar.js"></script>
   </header>
-</body>
 
+  <section class="parallax">
+    <img src="./Images/stars.png" id="stars" alt="stars">
+    <img src="./Images/moon.png" id="moon" alt="moon">
+    <img src="./Images/mountains_behind.png" id="mountains_behind" alt="mountains_behind">
+    <h2 id="text">Web Portfolio</h2>
+    <a href="#" id="btn">Contact</a>
+    <img src="./Images/mountains_front.png" id="mountains_front" alt="mountains_front">
+  </section>
+
+  <div class="container">
+    <h2>James Tariga's Web Portfolio</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt <br><br><br>ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br><br>ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt <br><br><br>ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br><br>ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt <br><br><br>ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br><br>ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum      sed do eiusmod tempor incididunt <br><br><br>ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br><br>ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+  </div>
+  <script type="text/javascript">
+    let moon = document.getElementById('moon');
+    let stars = document.getElementById('stars');
+    let mountains_behind = document.getElementById('mountains_behind');
+    let mountains_front = document.getElementById('mountains_front');
+    let text = document.getElementById('text');
+    let btn = document.getElementById('btn');
+    let header = document.querySelector('header');
+    
+    window.addEventListener('scroll', function() {
+      var value = window.scrollY;
+      moon.style.top = -value * -1.05 + 'px';
+      stars.style.left = value * 0.25 + 'px';
+      mountains_behind.style.top =-value * -0.5 + 'px';
+      header.style.top =-value * -0.5 + 'px';
+      mountains_front.style.top =-value * 0 + 'px';
+      text.style.marginTop = value * 1.5 + 'px';
+      btn.style.marginTop = value * 1.5 + 'px';
+      text.style.marginRight = value * 4 + 'px';
+    });
+  </script>
+</body>
 </html>
