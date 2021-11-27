@@ -156,17 +156,53 @@ nav {
   color: #fff;
 }
 
-.object {
-  display: block;
+.project-title {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  background: #1c0521;
 }
 
-#OD {
-  max-width: fit-content;
+.project-title h2 {
+  font-size: 2.0em;
+  color: #fff;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  background: #1c0521;
+}
+
+.flex-item {
+  padding: 5rem;
+  margin-bottom: 2rem;
+  border-radius: 1.5em 1.5em 1.5em 1.5em;
+  background-color: rgb(87, 74, 204);
+  box-shadow: 10px 10px #2b1055;
+}
+
+.flex-item h3 {
+  font-size: 1.5em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.flex-item p {
+  font-size: 1.0em;
+  color: #fff;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width:1024px) {
   .nav-links {
     width: 60%;
+  }
+  .flex-item {
+    padding: 2.5rem;
   }
 }
 
@@ -201,6 +237,10 @@ nav {
   }
   .burger {
     display: block;
+  }
+
+  .flex-item {
+    padding: 1.5rem;
   }
 
 }
