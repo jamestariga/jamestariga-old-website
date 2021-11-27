@@ -136,7 +136,7 @@ nav {
   height: auto;
 }
 
-.grid {
+.flex {
   text-align: center;
   width: 60%;
   border-style: solid;
@@ -146,12 +146,12 @@ nav {
   background: linear-gradient(#1c0521, rgb(87, 74, 204));
 }
 
-.grid h2 {
+.flex h2 {
   font-size: 2.0em;
   margin-bottom: 10px;
   color: #fff;
 }
-.grid p {
+.flex p {
   font-size: 1.0em;
   color: #fff;
 }
