@@ -124,10 +124,23 @@ nav {
   transform: translateY(100px);
 }
 
+.about-title {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  background: #1c0521;
+}
+
+.about-title h2 {
+  font-size: 2.0em;
+  color: #fff;
+}
+
 .container {
   display: flex;
   flex-wrap: nowrap;
-  padding-top: 100px;
+  padding-top: 2%;
   background: #1c0521;
 }
 
@@ -146,11 +159,6 @@ nav {
   box-shadow: 10px 10px#2b1055;
 }
 
-.flex h2 {
-  font-size: 2.0em;
-  margin-bottom: 10px;
-  color: #fff;
-}
 .flex p {
   font-size: 1.0em;
   color: #fff;
@@ -215,6 +223,18 @@ nav {
   height: auto;
 }
 
+.hobbies-title {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  background: #1c0521;
+}
+
+.hobbies-title h2 {
+  font-size: 2.0em;
+  color: #fff;
+}
 
 @media screen and (max-width:1024px) {
   .nav-links {
