@@ -1,3 +1,3 @@
-Udemy Web Development Tutorial
+James Tariga's Personal Web Portfolio
 
-This is my personal website project for Udemy.
+This is my personal website project.
