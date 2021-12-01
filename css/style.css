@@ -48,7 +48,7 @@ nav {
 }
 
 .nav-links a:hover {
-  background-color: rgb(45, 31, 31);
+  background-color: rgb(87, 74, 204);
   color: rgb(0, 0, 0)
 }
 
@@ -214,6 +214,7 @@ nav {
   width: 100%;
   height: auto;
 }
+
 
 @media screen and (max-width:1024px) {
   .nav-links {
