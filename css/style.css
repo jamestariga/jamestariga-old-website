@@ -126,6 +126,7 @@ nav {
 
 .container {
   display: flex;
+  flex-wrap: nowrap;
   padding-top: 100px;
   background: #1c0521;
 }
@@ -138,12 +139,11 @@ nav {
 
 .flex {
   text-align: center;
-  width: 60%;
-  border-style: solid;
   border-radius: 1.5em 1.5em 1.5em 1.5em;
-  padding: 10px;
+  padding: 2rem;
   margin: auto;
-  background: linear-gradient(#1c0521, rgb(87, 74, 204));
+  background-color: rgb(87, 74, 204);
+  box-shadow: 10px 10px#2b1055;
 }
 
 .flex h2 {
@@ -178,8 +178,9 @@ nav {
 }
 
 .flex-item {
-  padding: 5rem;
+  padding: 2rem;
   margin-bottom: 2rem;
+  height: auto;
   border-radius: 1.5em 1.5em 1.5em 1.5em;
   background-color: rgb(87, 74, 204);
   box-shadow: 10px 10px#2b1055;
@@ -188,13 +189,30 @@ nav {
 .flex-item h3 {
   font-size: 1.5em;
   color: #fff;
-  margin-bottom: 10px;
+  margin: 3%;
+  text-align: left;
 }
 
 .flex-item p {
   font-size: 1.0em;
   color: #fff;
   margin-bottom: 10px;
+  text-align: justify;
+}
+
+#object-detection {
+  width: 100%;
+  height: auto;
+}
+
+#oms {
+  width: 100%;
+  height: auto;
+}
+
+#car-rental {
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width:1024px) {
