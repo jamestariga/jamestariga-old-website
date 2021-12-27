@@ -159,6 +159,11 @@ nav {
   box-shadow: 10px 10px#2b1055;
 }
 
+.flex h4 {
+  color: #fff;
+}
+
+
 .flex p {
   font-size: 1.0em;
   color: #fff;
