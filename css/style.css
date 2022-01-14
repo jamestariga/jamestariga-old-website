@@ -126,8 +126,7 @@ nav {
 
 .about-title {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: center;
   padding-top: 100px;
   background: #1c0521;
 }
@@ -139,7 +138,8 @@ nav {
 
 .container {
   display: flex;
-  flex-wrap: nowrap;
+  justify-content: center;
+  flex-wrap: wrap;
   padding-top: 2%;
   background: #1c0521;
 }
@@ -154,7 +154,7 @@ nav {
   text-align: center;
   border-radius: 1.5em 1.5em 1.5em 1.5em;
   padding: 2rem;
-  margin: auto;
+  margin: 1rem;
   background-color: rgb(87, 74, 204);
   box-shadow: 10px 10px#2b1055;
 }
@@ -162,11 +162,87 @@ nav {
 .flex p {
   font-size: 1.0em;
   color: #fff;
+  text-align: justify;
+}
+
+.flex h4 {
+  font-size: 1.0em;
+  color: #fff;
+}
+
+.flex:hover {
+  background-color: rgb(40, 30, 131);
+}
+
+.skills-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  background: #1c0521;
+}
+
+.skills-title h2 {
+  font-size: 2.0em;
+  color: #fff;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  background: #1c0521;
+}
+
+.skills-item {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  margin: 1rem;
+  width: 25%;
+  height: auto;
+  border-radius: 1.5em 1.5em 1.5em 1.5em;
+  background-color: rgb(87, 74, 204);
+  box-shadow: 10px 10px#2b1055;
+}
+
+.skills-item h3 {
+  font-size: 1em;
+  color: #fff;
+  text-align: center;
+}
+
+.skills-item p {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+#skills-item img {
+  display: block;
+  margin: 0 auto;
+  width: 4rem;
+}
+
+#html img{
+  width: 4.5rem;
+}
+
+#css img{
+  width: 4.5rem;
+}
+
+#react img{
+  width: 4rem;
+}
+
+#php img{
+  width: 7rem;
 }
 
 .project-title {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   padding-top: 100px;
   background: #1c0521;
@@ -179,7 +255,7 @@ nav {
 
 .flex-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   padding-top: 2%;
   background: #1c0521;
@@ -187,7 +263,7 @@ nav {
 
 .flex-item {
   padding: 2rem;
-  margin-bottom: 2rem;
+  margin: 1rem;
   height: auto;
   border-radius: 1.5em 1.5em 1.5em 1.5em;
   background-color: rgb(87, 74, 204);
@@ -198,7 +274,7 @@ nav {
   font-size: 1.5em;
   color: #fff;
   margin: 3%;
-  text-align: left;
+  text-align: center;
 }
 
 .flex-item p {
@@ -206,6 +282,10 @@ nav {
   color: #fff;
   margin-bottom: 10px;
   text-align: justify;
+}
+
+.flex-item:hover {
+  background-color: rgb(40, 30, 131);
 }
 
 #object-detection {
@@ -219,6 +299,16 @@ nav {
 }
 
 #car-rental {
+  width: 100%;
+  height: auto;
+}
+
+#sudoku-solver {
+  width: 100%;
+  height: auto;
+}
+
+#calculator {
   width: 100%;
   height: auto;
 }
@@ -243,6 +333,11 @@ nav {
   .flex-item {
     padding: 2.5rem;
   }
+  .skills-item p {
+    font-size: 1rem;
+    padding-top: 0.75rem;
+  }
+  
 }
 
 @media screen and (max-width:768px) {
@@ -257,6 +352,61 @@ nav {
   p {
     font-size: 1.2rem;
   }
+
+  .container img {
+    width: 100%;
+    max-width:100px;
+    height: auto;
+  }
+
+  .flex {
+    padding: 1rem;
+  }
+
+  #skills-item img {
+    display: block;
+    margin: 0 auto;
+    width: 2rem;
+  }
+
+  #php img{
+    width: 3.5rem;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .skills-item {
+    padding: 2rem;
+    margin: 0.5rem;
+    width: 25%;
+    height: auto;
+  }
+
+  .skills-item h3 {
+    font-size: 0.5rem;
+  }
+
+  .skills-item p {
+    font-size: 0.5rem;
+    padding-top: 0.5rem;
+  }
+
+  #html img{
+    width: 2.1rem;
+  }
+  
+  #css img{
+    width: 2.1rem;
+  }
+  
+  #react img{
+    width: 1.8rem;
+  }
+  
+  #php img{
+    width: 3.3rem;
+  }
+
   .nav-links {
     position: absolute;
     right: 0;
