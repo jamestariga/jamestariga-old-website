@@ -49,7 +49,7 @@ nav {
 
 .nav-links a:hover {
   background-color: rgb(87, 74, 204);
-  color: rgb(0, 0, 0)
+  color: rgb(0, 0, 0);
 }
 
 .burger {
@@ -105,7 +105,7 @@ nav {
 }
 
 #text {
-  position:absolute;
+  position: absolute;
   right: -350px;
   color: #fff;
   white-space: nowrap;
@@ -132,7 +132,7 @@ nav {
 }
 
 .about-title h2 {
-  font-size: 2.0em;
+  font-size: 2em;
   color: #fff;
 }
 
@@ -146,7 +146,7 @@ nav {
 
 .container img {
   width: 100%;
-  max-width:200px;
+  max-width: 200px;
   height: auto;
 }
 
@@ -163,15 +163,14 @@ nav {
   color: #fff;
 }
 
-
 .flex p {
-  font-size: 1.0em;
+  font-size: 1em;
   color: #fff;
   text-align: justify;
 }
 
 .flex h4 {
-  font-size: 1.0em;
+  font-size: 1em;
   color: #fff;
 }
 
@@ -187,7 +186,7 @@ nav {
 }
 
 .skills-title h2 {
-  font-size: 2.0em;
+  font-size: 2em;
   color: #fff;
 }
 
@@ -229,19 +228,19 @@ nav {
   width: 4rem;
 }
 
-#html img{
+#html img {
   width: 4.5rem;
 }
 
-#css img{
+#css img {
   width: 4.5rem;
 }
 
-#react img{
+#react img {
   width: 4rem;
 }
 
-#php img{
+#php img {
   width: 7rem;
 }
 
@@ -254,7 +253,7 @@ nav {
 }
 
 .project-title h2 {
-  font-size: 2.0em;
+  font-size: 2em;
   color: #fff;
 }
 
@@ -263,6 +262,7 @@ nav {
   justify-content: center;
   flex-wrap: wrap;
   padding-top: 2%;
+  padding-bottom: 4rem;
   background: #1c0521;
 }
 
@@ -283,7 +283,7 @@ nav {
 }
 
 .flex-item p {
-  font-size: 1.0em;
+  font-size: 1em;
   color: #fff;
   margin-bottom: 10px;
   text-align: justify;
@@ -327,11 +327,11 @@ nav {
 }
 
 .hobbies-title h2 {
-  font-size: 2.0em;
+  font-size: 2em;
   color: #fff;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .nav-links {
     width: 60%;
   }
@@ -342,10 +342,9 @@ nav {
     font-size: 1rem;
     padding-top: 0.75rem;
   }
-  
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
   }
@@ -360,7 +359,7 @@ nav {
 
   .container img {
     width: 100%;
-    max-width:100px;
+    max-width: 100px;
     height: auto;
   }
 
@@ -374,7 +373,7 @@ nav {
     width: 2rem;
   }
 
-  #php img{
+  #php img {
     width: 3.5rem;
     display: block;
     margin: 0 auto;
@@ -396,19 +395,19 @@ nav {
     padding-top: 0.5rem;
   }
 
-  #html img{
+  #html img {
     width: 2.1rem;
   }
-  
-  #css img{
+
+  #css img {
     width: 2.1rem;
   }
-  
-  #react img{
+
+  #react img {
     width: 1.8rem;
   }
-  
-  #php img{
+
+  #php img {
     width: 3.3rem;
   }
 
@@ -436,7 +435,6 @@ nav {
   .flex-item {
     padding: 1.5rem;
   }
-
 }
 
 .nav-active {
@@ -455,7 +453,7 @@ nav {
 }
 
 .toggle .line1 {
-  transform: rotate(-45deg) translate(-5px,6px);
+  transform: rotate(-45deg) translate(-5px, 6px);
 }
 
 .toggle .line2 {
@@ -463,5 +461,5 @@ nav {
 }
 
 .toggle .line3 {
-  transform: rotate(45deg) translate(-5px,-6px);
+  transform: rotate(45deg) translate(-5px, -6px);
 }
