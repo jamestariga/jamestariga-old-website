@@ -1,0 +1,29 @@
+.container,
+.about-title {
+  animation-duration: 4s;
+  animation-name: slideRight;
+}
+
+.skills-container,
+.skills-title {
+  animation-duration: 6s;
+  animation-name: slideRight;
+}
+
+.flex-container,
+.project-title {
+  animation-duration: 8s;
+  animation-name: slideRight;
+}
+
+@keyframes slideRight {
+  from {
+    margin-left: 0%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
