@@ -1,3 +1,3 @@
-James Tariga's Personal Web Portfolio
+# James Tariga's Personal Web Portfolio
 
-This is my personal website project. Please go to jamestariga.github.io
+This is my old personal website. Visit this [link](https://jamestariga.me) for my current website.
